@@ -1,13 +1,15 @@
 def computeSimple(string):
     sum = 0
-    # start writing here
+    for ch in string: 
+        sum = sum + ord(ch)
     
 
     return sum
 
 def computeByIndex(string):
     sum = 0
-    # start writing here
+    for i in range(len(string)):
+        sum = sum + i*ord(ch)
 
 
     return sum
